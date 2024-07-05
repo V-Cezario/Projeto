@@ -18,14 +18,14 @@ function toggleMode() {
   //substituir a imagem
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "/assets/avatar-light.png")
     img.setAttribute(
       "alt",
       "Foto de cachorro caramelo de focinho preto, chamado Jorge, o fundo da foto é uma parede bege"
     )
     //se tiver sem light mode, manter a imagem normal
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "/assets/avatar.png")
     img.setAttribute(
       "alt",
       "Foto de uma dalmata com coleira roxa, chamada Izzie, no fundo da foto há uma planta em um vaso marrom"
